@@ -2,8 +2,8 @@ Gem::Specification.new do |spec|
   spec.name          = "id3lib-ruby"
   spec.version       = "0.6.0"
   spec.summary	     = "id3lib-ruby"
-  spec.authors	     = ["id3lib"]
-  spec.email	     = ["id3lib@test.com"]
+  spec.authors       = ["Hamed Hashemi"]
+  spec.email         = ["hamedh@gmail.com"]
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
