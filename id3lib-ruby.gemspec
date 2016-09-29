@@ -1,6 +1,7 @@
 Gem::Specification.new do |spec|
   spec.name          = "id3lib-ruby"
   spec.version       = "0.6.0"
+  spec.summary	     = "id3lib-ruby"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
